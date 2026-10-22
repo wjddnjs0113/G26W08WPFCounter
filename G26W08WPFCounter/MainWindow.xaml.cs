@@ -20,6 +20,6 @@ namespace G26W08WPFCounter {
 
         private void OnAdd(object sender, RoutedEventArgs e) {
             TxtCount.Text = "눌렸습니다.";
-        }
+        } 
     }
 }
