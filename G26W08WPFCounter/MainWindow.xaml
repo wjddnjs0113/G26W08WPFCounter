@@ -16,6 +16,7 @@
         </Grid.RowDefinitions>
         <Button x:Name="BtnAdd" Content="증가" HorizontalAlignment="Center" Margin="0,151,0,0" VerticalAlignment="Top" Height="46" Width="316" FontSize="24" Click="OnAdd" Grid.Row="1"/>
         <TextBlock x:Name="TxtCount" HorizontalAlignment="Center" Margin="0,72,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="안녕하세요" VerticalAlignment="Top" RenderTransformOrigin="-1.96,-3.262" Height="74" Width="316" TextAlignment="Center" FontSize="48" Background="#FFFFFA00"/>
+        <Button x:Name="BtnDown" Content="감소" HorizontalAlignment="Center" Margin="0,202,0,0" VerticalAlignment="Top" Height="46" Width="316" FontSize="24" Click="OnDown" Grid.Row="1"/>
 
     </Grid>
 </Window>

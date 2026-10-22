@@ -14,12 +14,20 @@ namespace G26W08WPFCounter {
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
+        private
+            int count = 0;
         public MainWindow() {
             InitializeComponent();
         }
 
         private void OnAdd(object sender, RoutedEventArgs e) {
-            TxtCount.Text = "눌렸습니다.";
-        } 
+            TxtCount.Text = $"{++count}";
+        }
+
+        private void OnDown(object sender, RoutedEventArgs e) {
+            if (count > 0) {
+                TxtCount.Text = $"{--count}";
+            }
+        }
     }
 }
